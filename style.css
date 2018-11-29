@@ -22,9 +22,132 @@ h2.bigger_heading {
 }
 
 body {
-    background-image: url("images/Background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    color: white;
+    background-color: #789fb8;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+}
+
+body#aboutpage {
+    text-align: center;
+}
+
+ ::-moz-selection {
+    color: black;
+    background-color: white;
+}
+
+ ::selection {
+    color: black;
+    background-color: white;
+}
+
+em,
+i {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: 700;
+}
+
+em.level2 {
+    color: #180081;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+strong,
+b {
+    font-family: 'Montserrat', sans-serif;
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+p,
+ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.12em;
+}
+
+code {
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(38, 38, 71);
+    background-color: #5584a3;
+    border-radius: 12px;
+}
+
+div,
+.button,
+input {
+    font-family: 'Montserrat', sans-serif;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+    padding: 15px 15px;
+}
+
+div:hover,
+.button:hover,
+input:hover {
+    font-family: 'Montserrat', sans-serif;
+    border: black;
+    background-color: violet;
+    text-decoration: underline;
+    color: black;
+}
+
+ul#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+}
+
+li#menuelement {
+    float: left;
+}
+
+li#menuelement a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+
+li#menuelement a:hover {
+    background-color: green;
+}
+
+
+
+
+
+
+
+#Messi{
+  left: 0;
+  width: 150px;
+  height: 100%;
+  position: fixed;
+}
+#Federer{
+  right: 0;
+  width: 150px;
+  height: 100%;
+  position: fixed;
+}
+#Eishockey{
+  down: 0;
+  width: 150px;
+  height: 100%;
+  position: fixed;
 }
