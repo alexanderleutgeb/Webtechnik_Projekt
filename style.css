@@ -22,7 +22,7 @@ h2.bigger_heading {
 }
 
 body {
-    color: white;
+    color: black;
     background-color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -120,7 +120,7 @@ li#menuelement a {
 }
 
 li#menuelement a:hover {
-    background-color: green;
+    background-color: #2d18bb;
 }
 
 .bild {
