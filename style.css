@@ -27,11 +27,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
-
-body#aboutpage {
-    text-align: center;
-}
-
  ::-moz-selection {
     color: black;
     background-color: white;
