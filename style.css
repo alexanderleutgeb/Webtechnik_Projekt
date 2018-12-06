@@ -126,21 +126,8 @@ li#menuelement a {
 li#menuelement a:hover {
     background-color: green;
 }
-#Messi{
-  left: 0;
-  width: 150px;
-  height: 100%;
-  position: fixed;
-}
-#Federer{
-  right: 0;
-  width: 150px;
-  height: 100%;
-  position: fixed;
-}
-#Eishockey{
-  down: 0;
-  width: 150px;
-  height: 100%;
-  position: fixed;
+
+.bild {
+display: block;
+margin: 0 auto;
 }
